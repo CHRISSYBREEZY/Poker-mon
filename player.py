@@ -19,5 +19,4 @@ class Player:
 
 
     def render(self, screen):
-        screen.blit(self.image, self.rect )
-       
+        screen.blit(self.image, self.rect)

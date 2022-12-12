@@ -1,25 +1,16 @@
 import pygame
 import config
 from game_state import GameState
-import mysql.connector
+
 from game import Game
-#Importerer fra de forskjellige filene og databasen.
 
 pygame.init()
 
-player_locationDB = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",
-    database="pokemon"
-)
-dbCusrsor = player_locationDB.cursor()
+screen = pygame.display.set_mode((config.SCREEN_WIDTH, config.SCREEN_HEIGHT))
 
-screen = pygame.display.set_mode((600, 400))
+pygame.display.set_caption("Kubmo")
 
-pygame.display.set_caption("Pokemon Clone")
-
-clock = pygame.time.Clock() 
+clock = pygame.time.Clock()
 
 game = Game(screen)
 game.set_up()
