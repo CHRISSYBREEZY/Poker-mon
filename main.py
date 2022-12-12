@@ -8,7 +8,7 @@ pygame.init()
 
 screen = pygame.display.set_mode((config.SCREEN_WIDTH, config.SCREEN_HEIGHT))
 
-pygame.display.set_caption("Kubmo")
+pygame.display.set_caption("Kuben_Poker")
 
 clock = pygame.time.Clock()
 
