@@ -1,0 +1,7 @@
+Brukerveiledning IT lærling
+
+- Gå på:https://github.com/CHRISSYBREEZY/Poker-mon 
+- Last ned koten i en zip.
+- åpne main.py i visual eller andre IDE'er (Integrated development environment)
+- Filene funker bare hvis du runner de i main.py.
+- Trenger ikke statisk ip

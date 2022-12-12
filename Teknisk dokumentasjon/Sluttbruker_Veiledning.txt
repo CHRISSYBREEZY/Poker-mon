@@ -1,0 +1,8 @@
+Brukerveiledning for sluttbruker
+
+W = Gå opp
+A = Gå til venstre
+S = Gå nedover
+D = Gå til høyre
+
+ESC = Quit
