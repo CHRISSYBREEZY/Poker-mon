@@ -5,7 +5,7 @@ import mysql.connector
 cnx = mysql.connector.connect(
   user="<root>",
   password="<>",
-  host="<10.2.2.130>",
+  host="<192.168.133.100>",
   database="<database>"
 )
 
