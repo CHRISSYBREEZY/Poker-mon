@@ -3,5 +3,5 @@ Teknisk dokumentasjon
 Serverløsning: XAMPP
 Database: MySQL
 Ip:
-Database: 
+Database: pokemon 
 Passord:
